@@ -35,7 +35,7 @@ for file in IMAGE_FILES:
     # create a rectangle around those points
     x, y, w, h = cv2.boundingRect(points)
 
-    # remove unnecunnecessary background
+    # remove unnecessary background
     # img = img[y:y+h, x:x+w]
 
     parsed_results = dict()
